@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splash">
+
+    <TextView
+        android:id="@+id/logonameimg"
+        android:layout_width="233dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/apptext"
+        android:gravity="center"
+        android:text="EzeeChat"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_30sdp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <ImageView
+        android:id="@+id/logoimg"
+        android:layout_width="249dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        app:srcCompat="@drawable/ez" />
+
+    <TextView
+        android:id="@+id/ownone"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:text="From"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        android:gravity="center"
+        android:fontFamily="@font/spartan_thin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <TextView
+        android:id="@+id/owntwo"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:text="Kumar Gaurav"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp"
+        android:gravity="center"
+        android:fontFamily="@font/spartan_thin"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
